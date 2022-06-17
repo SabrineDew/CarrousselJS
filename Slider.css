@@ -1,0 +1,132 @@
+body {
+  background-color: #363336;
+  color: #b600ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5.5%;
+  margin-left: 80%;
+}
+
+/* .containerimg2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -5.5%;
+    margin-left: -45%;
+} */
+
+.containercenter {
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  padding: 1%;
+  margin: 2%;
+}
+.topprofil {
+  padding: 1%;
+  margin: 2%;
+  border-radius: 15% 0% 15% 0%;
+  width: 20%;
+  background-image: url(./fond.jpg);
+  box-shadow: -1em 0.5em #b600ff;
+}
+
+button {
+  background-color: #555255;
+  color: #b600ff;
+  padding: 1%;
+  margin: 2%;
+  border-radius: 10%;
+  border-top: 3px #b600ff dotted;
+  border-right: 3px #b600ff dotted;
+  border-left: 3px #b600ff dotted;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #232123;
+}
+
+.backfond {
+  background-color: #232123;
+  padding: 1%;
+  margin-top: 5%;
+  width: auto;
+  height: auto;
+  border-top: 8px #b600ff solid;
+}
+
+.cadre {
+  background-color: #555255;
+  padding: 1%;
+  margin-top: -2.5%;
+  width: 80%;
+  height: auto;
+  border-bottom: 3px #b600ff dotted;
+}
+
+#paragraphe1 {
+  background-color: red;
+  color: white;
+  display: none;
+}
+
+#paragraphe2 {
+  background-color: black;
+  color: white;
+  display: none;
+}
+
+#paragraphe3 {
+  background-color: blue;
+  color: white;
+  display: none;
+}
+
+#paragraphe4 {
+  background-color: greenyellow;
+  color: white;
+  display: none;
+}
+
+.mini {
+  background-color: #232123;
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.mini:hover {
+  background-color: #ee87ee;
+  color: #232123;
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+.bordure {
+  border-bottom: #232123 solid 2px;
+}
+h3 {
+  text-align: right;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
